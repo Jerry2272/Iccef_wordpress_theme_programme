@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap_css -->
+    <link rel="stylesheet" href="../boots/bootstrap.min.css">
+    <!-- font_awesome -->
+    <link rel="stylesheet" href="../Font_6/css/all.min.css">
+    <!-- animate_css -->
+    <link rel="stylesheet" href="../boots/animate.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/Events.css">
+    <title>_ICCEF_Events</title>
+</head>
+
+<body>
+  <!-- header/navbar -->
+  <header class="d-lg-block d-none">
+    <nav class="navbar navbar-expand-lg navigation_bar bg-white fixed-top">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand"><img src="../Images/ICCEF LOGO 1.png" alt=""></a>
+        <button class="navbar-toggler hover-none" id="navbar_toggle"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item navbar_dropdown">
+              <a class="nav-link" aria-current="page" href="#">About <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="About_Iccef">
+                <a href="../html files/about.html" class="nav">About ICCEF</a>
+                <hr>
+                <a href="../html files/The man.html" class="">The Man Innocent Chukwuemeka Chukwuma</a>
+                <hr>
+                <a href="../html files/Team.html"> Our Team</a>
+              </ul>
+            </li>
+            <li class="nav-item navbar_dropdown nav-items">
+              <a class="nav-link" href="#">Programme <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="Programme_Iccef">
+                <a href="../html files/youth.html">
+                  Youth Innovation and Technological Startups
+                </a>
+                <hr>
+                <a href="../html files/Intergeneral.html">
+                  Mentoring & Intergenerational Dialogues (Big Brothers & Sisters Project)
+                </a>
+                <hr>
+                <a href="../html files/community_youth.html">
+                  Community Youth Empowerment & Education
+                </a>
+                <hr>
+                <a href="../html files/daughter_project.html">
+                  Our Daughters Project
+                </a>
+                <hr>
+                <a href="../html files/legacy_project.html">Legacy Projects</a>
+              </ul>
+            </li>
+            <li class="nav-item navbar_dropdown nav-items">
+              <a class="nav-link" href="#">Blog <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="Blog_Iccef">
+                <a href="../html files/stories.html">News/Stories</a>
+                <hr>
+                <a href="../html files/Events.html">Events</a>
+                <hr>
+                <a href="../html files/opportunity.html">Opportunity</a>
+                <hr>
+                <a href="../html files/grant.html">Writings by <br> Innocent Chukwuemeka Chukwuma</a>
+              </ul>
+            </li>
+            <li class="nav-item navbar_dropdown">
+              <a class="nav-link me-2" href="#">Get Involved <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="Get-Involved_Iccef">
+                <a href="../html files/mentorship.html">As a Mentor</a>
+                <hr>
+                <a href="#">As a Partner</a>
+                <hr>
+                <a href="#">Volunteer</a>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class=" nav-bt btn" href="#">Apply for Grant</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav_bt btn" href="#">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <header class="d-block d-lg-none">
+    <nav class="navbar navbar-expand-lg nav_navigation bg-white fixed-top">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand"><img src="../Images/ICCEF LOGO 1.png" alt=""></a>
+        <!-- <button class="> -->
+          <span class="fa fa-bars navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="changeIcon(this)"></span>
+        <!-- </button> -->
+        <div class="collapse navbar-collapse accordion" id="navbarNav">
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">About</a>
+            </div>
+            <div class="text-center" id="about_accordion">
+              <a href="../html files/about.html" class="nav-content-link fw-bold">About ICCEF</a>
+              <a href="../html files/The man.html" class="nav-content-link fw-bold">The Man Chukwuemeka Chukwuma</a>
+              <a href="../html files/Team.html" class="nav-content-link fw-bold">Our Team</a>
+            </div>
+          </div>
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Programme</a>
+            </div>
+            <div class="text-center" id="programme_accordion">
+              <a href="../html files/youth.html" class="nav-content-link fw-bold pt-0">Youth Innovation and Technological Startups</a>
+              <a href="../html files/Intergeneral.html" class="nav-content-link fw-bold">
+                Mentoring & Intergenerational Dialogues <br> (Big Brothers & Sisters Project)
+              </a>
+              <a href="../html files/community_youth.html" class="nav-content-link fw-bold">Community Youth Empowerment & Education</a>
+              <a href="../html files/daughter_project.html" class="nav-content-link fw-bold">Our Daughters Project</a>
+              <a href="../html files/legacy_project.html" class="nav-content-link fw-bold">Legacy Projects</a>
+            </div>
+          </div>
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Blog</a>
+            </div>
+            <div class="text-center" id="blog_accordion">
+              <a href="../html files/stories.html" class="nav-content-link fw-bold">News/Stories</a>
+              <a href="../html files/Events.html" class="nav-content-link fw-bold">Events</a>
+              <a href="../html files/opportunity.html" class="nav-content-link fw-bold">Opportunity</a>
+              <a href="../html files/Grants.html" class="nav-content-link fw-bold"> Writings by Innocent  ChukwuemekaChukwuma</a>
+            </div>
+          </div>
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Get Involved</a>
+            </div>
+            <div class="text-center" id="getInvolved_accordion">
+              <a href="../html files/mentorship.html" class="nav-content-link fw-bold">As a Mentor</a>
+              <a href="#" class="nav-content-link fw-bold">As a Partner</a>
+              <a href="#" class="nav-content-link fw-bold">Volunteer</a>
+            </div>
+          </div>
+          <div>
+              <a class="nav-link nav-btn btn" href="#">Apply for Grant</a>
+          </div>
+          <div>
+            <a class="nav-link text-white nav_btn btn" href="#">Donate</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+        <!-- section/home -->
+        <section id="home">
+            <h1 class="pb-3">Events</h1>
+        </section>
+    
+        <!-- section/about -->
+        <section id="about">
+            <div class="container">
+                <div class="row mt-1 gy-4">
+                    <div class="col-lg-6">
+                        <img src="../Images/Events_1.png" alt="" class=" chukwuma">
+                    </div>
+                    <div class="col-lg-6 surge p-lg-5">
+                        <h2 class="fw-bold">SURGE</h2>
+                        <p class=" surger">
+                            Lorem ipsum dolor sit amet consectetur. Amet purus urna elit arcu metus gravida gravida. Vivamus
+                            aliquam amet pellentesque fames posuere leo dolor. Semper purus mi elit euismod donec porttitor
+                            vitae mus etiam. Turpis platea dui cum vitae vulputate elit lectus vel. Lectus elit egestas quis
+                            in varius quam nisi. Sed viverra amet fringilla nulla sit maecenas. Mauris orci etiam risus
+                            molestie sit interdum vulputate ac mattis. Nulla dolor sed convallis venenatis dui. 
+                            Proin tempor elementum vel eu risus vel leo nisl. Ipsum scelerisque est pellentesque sit. Non
+                            pretium sit cursus rhoncus.
+                        </p>
+                        <hr>
+                        <div class="surge_location">
+                            <p>
+                                <span class="me-lg-4 me-3"><i class="fa-regular fa-clock"></i></span>
+                                <span> 09:00am [GMT +1]</span>
+                            </p>
+                            <p class="pb-2">
+                                <span class="me-lg-4 me-2"><i class="fa fa-location-dot"></i></span>
+                                <span>Port Harcourt, Rivers State, Nigeria</span>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="surge_content_a mt-5">
+                            <a href="#" class="surge_item_1 me-lg-5">Read More</a>
+                            <a href="#" class="surge_item_2">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- section/about_2 -->
+        <section id="about" class="mt-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-center mt-1">
+                    <div class="col-lg-6">
+                        <img src="../Images/legacy_project_innocent chukwuma award for innovation 1.png" alt=""
+                            class="img-fluid chukwuma">
+                    </div>
+                    <div class="col-lg-6 surge p-lg-5 pt-lg-0 mt-lg-0">
+                        <h2 class="fw-bold">FordFoundation</h2>
+                        <p class="my-4 pb-3 surger">
+                            Lorem ipsum dolor sit amet consectetur. Amet purus urna elit arcu metus gravida gravida. Vivamus
+                            aliquam amet pellentesque fames posuere leo dolor. Semper purus mi elit euismod donec porttitor
+                            vitae mus etiam. Turpis platea dui cum vitae vulputate elit lectus vel. Lectus elit egestas quis
+                            in varius quam nisi. Sed viverra amet fringilla nulla sit maecenas. Mauris orci etiam risus
+                            molestie sit interdum vulputate ac mattis. Nulla dolor sed convallis venenatis dui. <br>
+                            Proin tempor elementum vel eu risus vel leo nisl. Ipsum scelerisque est pellentesque sit. Non
+                            pretium sit cursus rhoncus.
+                        </p>
+                        <hr>
+                        <div class="surge_location">
+                          <p>
+                              <span class="me-lg-4 me-3"><i class="fa-regular fa-clock"></i></span>
+                              <span> 09:00am [GMT +1]</span>
+                          </p>
+                          <p class="pb-2">
+                              <span class="me-lg-4 me-2"><i class="fa fa-location-dot"></i></span>
+                              <span>Port Harcourt, Rivers State, Nigeria</span>
+                          </p>
+                      </div>
+                        <hr>
+                        <div class="surge_content_a mt-5">
+                            <a href="#" class="surge_item_1 me-lg-5">Read More</a>
+                            <a href="#" class="surge_item_2">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- section/about_3 -->
+        <section id="about" class="mt-4">
+            <div class="container">
+                <div class="row pt-3 mt-5 gy-4 justify-content-center">
+                    <div class="col-lg-6 ">
+                        <img src="../Images/Event_2.png" alt="" class="img-fluid chukwuma">
+                    </div>
+                    <div class="col-lg-6 surge p-lg-5 pt-lg-0 mt-lg-0">
+                        <h2 class="fw-bold">MainOne</h2>
+                        <p class="my-4 pb-3 surger">
+                            Lorem ipsum dolor sit amet consectetur. Amet purus urna elit arcu metus gravida gravida. Vivamus
+                            aliquam amet pellentesque fames posuere leo dolor. Semper purus mi elit euismod donec porttitor
+                            vitae mus etiam. Turpis platea dui cum vitae vulputate elit lectus vel. Lectus elit egestas quis
+                            in varius quam nisi. Sed viverra amet fringilla nulla sit maecenas. Mauris orci etiam risus
+                            molestie sit interdum vulputate ac mattis. Nulla dolor sed convallis venenatis dui. <br>
+                            Proin tempor elementum vel eu risus vel leo nisl. Ipsum scelerisque est pellentesque sit. Non
+                            pretium sit cursus rhoncus.
+                        </p>
+                        <hr>
+                        <div class="surge_location">
+                          <p>
+                              <span class="me-lg-4 me-3"><i class="fa-regular fa-clock"></i></span>
+                              <span> 09:00am [GMT +1]</span>
+                          </p>
+                          <p class="pb-2">
+                              <span class="me-lg-4 me-2"><i class="fa fa-location-dot"></i></span>
+                              <span>Port Harcourt, Rivers State, Nigeria</span>
+                          </p>
+                      </div>
+                        <hr>
+                        <div class="surge_content_a mt-5">
+                            <a href="#" class="surge_item_1 me-lg-5">Read More</a>
+                            <a href="#" class="surge_item_2">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- section/about_4 -->
+        <section id="about" class="mt-4">
+            <div class="container">
+                <div class="row pt-3 mt-5 gy-4 justify-content-center">
+                    <div class="col-lg-6 mt-lg-3">
+                        <img src="../Images/Events_3.png" alt="" class="img-fluid chukwuma">
+                    </div>
+                    <div class="col-lg-6 surge p-lg-5 pt-lg-0 mt-lg-0">
+                        <h2 class="fw-bold">StartupSouth Awards</h2>
+                        <p class="my-4 pb-3 surger">
+                            Lorem ipsum dolor sit amet consectetur. Amet purus urna elit arcu metus gravida gravida. Vivamus
+                            aliquam amet pellentesque fames posuere leo dolor. Semper purus mi elit euismod donec porttitor
+                            vitae mus etiam. Turpis platea dui cum vitae vulputate elit lectus vel. Lectus elit egestas quis
+                            in varius quam nisi. Sed viverra amet fringilla nulla sit maecenas. Mauris orci etiam risus
+                            molestie sit interdum vulputate ac mattis. Nulla dolor sed convallis venenatis dui. <br>
+                            Proin tempor elementum vel eu risus vel leo nisl. Ipsum scelerisque est pellentesque sit. Non
+                            pretium sit cursus rhoncus.
+                        </p>
+                        <hr>
+                        <div class="surge_location">
+                          <p>
+                              <span class="me-lg-4 me-3"><i class="fa-regular fa-clock"></i></span>
+                              <span> 09:00am [GMT +1]</span>
+                          </p>
+                          <p class="pb-2">
+                              <span class="me-lg-4 me-2"><i class="fa fa-location-dot"></i></span>
+                              <span>Port Harcourt, Rivers State, Nigeria</span>
+                          </p>
+                      </div>
+                        <hr>
+                        <div class="surge_content_a mt-5">
+                            <a href="#" class="surge_item_1 me-lg-5">Read More</a>
+                            <a href="#" class="surge_item_2">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- section/updated -->
+        <section id="updated">
+            <h1 class=" text-center pt-2">Stay Updated</h1>
+            <h6 class="mt-3  text-center">Subscribe to get all the latest updates</h6>
+            <div class="container">
+                <form action="#" class="row pt-4 gy-3 p-3">
+                    <div class="form-group col-md-6 col-lg-6">
+                        <input type="email" class="form-control p-3 mb-3" placeholder="Email Address">
+                    </div>
+                    <div class="form-group col-md-6 col-lg-6">
+                        <input type="text" class="form-control p-3" placeholder="Name">
+                    </div>
+                    <div class="col-12 mt-4">
+                        <button class="btn btn-sub">Submit</button>
+                    </div>
+                </form>
+            </div>
+    
+            </div>
+        </section>
+    
+        <!-- footer -->
+        <footer class="bg-white text-dark pt-5 pb-4">
+            <div class="container text-md-left">
+                <div class="row text-md-left justify-content-center">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <img src="../Images/ICCEF LOGO 1.png" alt="">
+                        <!-- <hr class="mb-4"> -->
+                        <p class="pt-5 logog">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-2">Contact Us</h5>
+                        <!-- <hr class="mb-4"> -->
+                        <p class="log mb-4">
+                            Innocent Chukwuma House CLEEN Foundation 21 Akinsanya Street off Isheri Road Ojodu- Berger
+                        </p>
+                        <p><a href="#" class="text-dark">hello@iccef.org</a></p>
+                        <p><a href="#" class="text-dark">+234 8180500788</a></p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 quick">
+                        <h5 class="text-uppercase mb-2">Quick Links</h5>
+                        <p><a href="#" class="text-dark">Home</a></p>
+                        <p><a href="#" class="text-dark">About us</a></p>
+                        <p><a href="#" class="text-dark">What we do</a></p>
+                        <p><a href="#" class="text-dark"> Stay Updated</a> </p>
+                        <p><a href="#" class="text-dark">Get Involved</a></p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-2 text-dark fw-bold">Follow Us</h5>
+                        <div class="footer_icons_social d-flex">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="ms-4"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"  class="ms-4"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"  class="ms-4"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+<!-- </div> -->
+
+    <!-- bootstrap_javascript -->
+    <script src="../boots/bootstrap.min.js"></script>
+    <!-- Javascript -->
+    <script src="../Javascript/js.js"></script>
+</body>
+
+</html>

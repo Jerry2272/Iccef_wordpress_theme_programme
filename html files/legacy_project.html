@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap_css -->
+    <link rel="stylesheet" href="../boots/bootstrap.min.css">
+    <!-- font_awesome -->
+    <link rel="stylesheet" href="../Font_6/css/all.min.css">
+    <!-- animate_css -->
+    <link rel="stylesheet" href="../boots/animate.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/legacy_project.css">
+    <title>_ICCEF_Lagacy/Projects</title>
+</head>
+
+<body>
+   <!-- header/navbar large-screen -->
+   <header class="d-lg-block d-none">
+    <nav class="navbar navbar-expand-lg navigation_bar bg-white fixed-top">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand"><img src="../Images/ICCEF LOGO 1.png" alt=""></a>
+        <button class="navbar-toggler hover-none" id="navbar_toggle"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item navbar_dropdown">
+              <a class="nav-link" aria-current="page" href="#">About <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="About_Iccef">
+                <a href="../html files/about.html" class="nav">About ICCEF</a>
+                <hr>
+                <a href="../html files/The man.html" class="">The Man Innocent Chukwuemeka Chukwuma</a>
+                <hr>
+                <a href="../html files/Team.html"> Our Team</a>
+              </ul>
+            </li>
+            <li class="nav-item navbar_dropdown nav-items">
+              <a class="nav-link" href="#">Programme <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="Programme_Iccef">
+                <a href="../html files/youth.html">
+                  Youth Innovation and Technological Startups
+                </a>
+                <hr>
+                <a href="../html files/Intergeneral.html">
+                  Mentoring & Intergenerational Dialogues (Big Brothers & Sisters Project)
+                </a>
+                <hr>
+                <a href="../html files/community_youth.html">
+                  Community Youth Empowerment & Education
+                </a>
+                <hr>
+                <a href="../html files/daughter_project.html">
+                  Our Daughters Project
+                </a>
+                <hr>
+                <a href="../html files/legacy_project.html">Legacy Projects</a>
+              </ul>
+            </li>
+            <li class="nav-item navbar_dropdown nav-items">
+              <a class="nav-link" href="#">Blog <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="Blog_Iccef">
+                <a href="../html files/stories.html">News/Stories</a>
+                <hr>
+                <a href="../html files/Events.html">Events</a>
+                <hr>
+                <a href="../html files/opportunity.html">Opportunity</a>
+                <hr>
+                <a href="../html files/grant.html">Writings by <br> Innocent Chukwuemeka Chukwuma</a>
+              </ul>
+            </li>
+            <li class="nav-item navbar_dropdown">
+              <a class="nav-link me-2" href="#">Get Involved <span><i class="fa fa-angle-down ms-2"></i></span></a>
+              <ul class="dropdowns" id="Get-Involved_Iccef">
+                <a href="../html files/mentorship.html">As a Mentor</a>
+                <hr>
+                <a href="#">As a Partner</a>
+                <hr>
+                <a href="#">Volunteer</a>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class=" nav-bt btn" href="#">Apply for Grant</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav_bt btn" href="#">Donate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+   <!-- header/navbar small-screen -->
+  <header class="d-block d-lg-none">
+    <nav class="navbar navbar-expand-lg nav_navigation bg-white fixed-top">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand"><img src="../Images/ICCEF LOGO 1.png" alt=""></a>
+        <!-- <button> -->
+          <span class="fa fa-bars navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="changeIcon(this)"></span>
+        <!-- </button> -->
+        <div class="collapse navbar-collapse accordion" id="navbarNav">
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">About</a>
+            </div>
+            <div class="text-center" id="about_accordion">
+              <a href="../html files/about.html" class="nav-content-link fw-bold">About ICCEF</a>
+              <a href="../html files/The man.html" class="nav-content-link fw-bold">The Man Chukwuemeka Chukwuma</a>
+              <a href="../html files/Team.html" class="nav-content-link fw-bold">Our Team</a>
+            </div>
+          </div>
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Programme</a>
+            </div>
+            <div class="text-center" id="programme_accordion">
+              <a href="../html files/youth.html" class="nav-content-link fw-bold pt-0">Youth Innovation and Technological Startups</a>
+              <a href="../html files/Intergeneral.html" class="nav-content-link fw-bold">
+                Mentoring & Intergenerational Dialogues <br> (Big Brothers & Sisters Project)
+              </a>
+              <a href="../html files/community_youth.html" class="nav-content-link fw-bold">Community Youth Empowerment & Education</a>
+              <a href="../html files/daughter_project.html" class="nav-content-link fw-bold">Our Daughters Project</a>
+              <a href="../html files/legacy_project.html" class="nav-content-link fw-bold">Legacy Projects</a>
+            </div>
+          </div>
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Blog</a>
+            </div>
+            <div class="text-center" id="blog_accordion">
+              <a href="../html files/stories.html" class="nav-content-link fw-bold">News/Stories</a>
+              <a href="../html files/Events.html" class="nav-content-link fw-bold">Events</a>
+              <a href="../html files/opportunity.html" class="nav-content-link fw-bold">Opportunity</a>
+              <a href="../html files/Grants.html" class="nav-content-link fw-bold"> Writings by Innocent  ChukwuemekaChukwuma</a>
+            </div>
+          </div>
+          <div class="navbar-nav text-center accordion_content">
+            <div class="accordion_title">
+              <a class="nav-link" aria-current="page" href="#" style="color: #21428C;">Get Involved</a>
+            </div>
+            <div class="text-center" id="getInvolved_accordion">
+              <a href="../html files/mentorship.html" class="nav-content-link fw-bold">As a Mentor</a>
+              <a href="#" class="nav-content-link fw-bold">As a Partner</a>
+              <a href="#" class="nav-content-link fw-bold">Volunteer</a>
+            </div>
+          </div>
+          <div>
+              <a class="nav-link nav-btn btn" href="#">Apply for Grant</a>
+          </div>
+          <div>
+            <a class="nav-link text-white nav_btn btn" href="#">Donate</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!-- section/home -->
+    <section id="home">
+        <h1 class="pb-3">Legacy <br> projects</h1>
+    </section>
+
+    <!-- section/about -->
+    <section id="about" class="mb-lg-5 pb-lg-5">
+        <div class="container">
+            <div class="row pt-2 gy-4  startup">
+                <div class="col-lg-6">
+                    <img src="../Images/legacy_project_innocent chukwuma award for innovation 1.png" alt=""
+                        class="img-fluid chukwuma">
+                </div>
+                <div class="col-lg-6 pt-lg-5 mt-lg-5 logo p-lg-5">
+                    <img src="../Images/StartupSouth Logo 1.png" alt="">
+                    <p class="pt-4">
+                        #StartupSouth instituted an award category known as Innocent Chukwuma Award for Innovation as a
+                        category within their Annual Award event. The award is awarded to an individual/organization in
+                        recognition of their contribution to the tech innovation ecosystem. The award was launched in
+                        September 2021.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section/about_2 -->
+    <section id="about_2" class="mb-lg-5 pb-lg-5">
+        <div class="container">
+            <div class="row gx-2 startup">
+                <div class="col-lg-6 p-4 order-last order-lg-first africa text-white" style="background: #39779F;">
+                    <h5>Association for Research on Civil Society in Africa, AROCSA</h5>
+                    <p class="pt-2 mb-3">
+                        Association for Research on Civil Society in Africa, AROCSA, is a regional association modelled
+                        after ARNOVA (Association for Research on Non-Profit Organizations & Voluntary Action). Innocent
+                        while in Ford Foundation as Resident Director had initiated the idea in 2015. AROCSA has an
+                        executive leadership transition programme for the founders/executive directors of NGOs planning
+                        transitions. In October 2021 after Innocent’s demise, AROCSA changed the name of the fellowship
+                        to Innocent Chukwuma African NGO Leadership Transition Fellowship Programme.
+                    </p>
+                </div>
+                <div class="col-lg-6 p-lg-5 legal">
+                    <img src="../Images/Legacy_A.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section/about_3 -->
+    <section id="about_3" class="mb-lg-5 pb-lg-5">
+        <div class="container">
+            <div class="row gx-2 gy-4 startup">
+                <div class="col-lg-6 ms-lg-0">
+                    <img src="../Images/legacy_project_3.png" alt="">
+                </div>
+                <div class="col-lg-6 p-3 p-lg-5 africaa" style="background: #39779F;">
+                    <h5>
+                        Innocent Chukwuma Social Entrepreneurship Prize for Youth and Gender Empowerment in Southeastern
+                        Nigeria.
+                    </h5>
+                    <p class="pt-2 mb-3">
+                        This Annual Award in Innocent Chukwuma’s Honour was instituted by the board of LEAP Africa. The
+                        Social Innovators Programme & Awards started in September 2022. Click here to see the 2022
+                        winner of the ICSEP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section/about_4 -->
+    <section id="about_4">
+        <div class="container">
+            <div class="row gx-2 gy-3 startup">
+                <div class="col-lg-6 p-4 bg-light order-last order-lg-first" style="background: #4976B9;">
+                    <h5>
+                        The ‘Innocent Chukwuma Social Impact Fellowship
+                    </h5>
+                    <p class="pt-lg-2 mb-3">
+                        The ‘Innocent Chukwuma Social Impact Fellowship’ is a capacity-building programme that is
+                        designed to support young Nigerians to lead transitions through their social change initiatives
+                        in communities, social enterprises, nonprofit organisations, research, and influence on
+                        development policy implementation. The fellowship equips the ten youth fellows with the
+                        necessary skills to deal strategically with complex challenges and opportunities in leading
+                        their organisations and communities, and it also gives the youth fellows the opportunity to
+                        create a network of local, national and international partners committed to sustainable
+                        development and feminist and responsible leadership principles. The fellowship runs for 6months
+                        annually.
+                        Ford Foundation supported the first Innocent Chukwuma Social Impact Chair & Fellowship (ICSICF)
+                        and it is being hosted by Lagos Business School. Click here to read more about the fellowship.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../Images/legacy_project_4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- section/updated -->
+     <section id="updated">
+        <h1 class=" text-center pt-2">Stay Updated</h1>
+          <h6 class="mt-3  text-center">Subscribe to get all the latest updates</h6>
+        <div class="container">
+            <form action="#" class="row pt-4 p-3">
+                <div class="form-group col-md-6 col-lg-6">
+                    <input type="email" class="form-control p-3" placeholder="Email Address">
+                </div>
+                <div class="form-group col-md-6 col-lg-6 mb-3">
+                    <input type="text" class="form-control p-3 email" placeholder="Name">
+                </div> 
+                <div class="col-12 mt-4">
+                    <button class="btn btn-sub">Submit</button>
+                </div>
+            </form>
+          </div>
+          
+        </div>
+       </section>
+       
+       <!-- footer -->
+       <footer class="bg-white text-dark pt-5 pb-4">
+        <div class="container text-md-left">
+          <div class="row text-md-left justify-content-center">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img src="../Images/ICCEF LOGO 1.png" alt="">
+              <!-- <hr class="mb-4"> -->
+              <p class="pt-5 logog">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-2">Contact Us</h5>
+              <!-- <hr class="mb-4"> -->
+              <p class="log mb-4">
+                Innocent Chukwuma House CLEEN Foundation  21 Akinsanya Street off Isheri Road Ojodu- Berger
+              </p>
+                <p><a href="#" class="text-dark">hello@iccef.org</a></p>
+                <p><a href="#" class="text-dark">+234 8180500788</a></p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 quick">
+               <h5 class="text-uppercase mb-2">Quick Links</h5>
+                <p><a href="#" class="text-dark">Home</a></p>
+                <p><a href="#" class="text-dark">About us</a></p>
+                <p><a href="#" class="text-dark">What we do</a></p>
+                <p><a href="#" class="text-dark"> Stay Updated</a> </p>
+                <p><a href="#" class="text-dark">Get Involved</a></p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-2 text-dark">Follow Us</h5>
+              <div class="footer_icons_social d-flex">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="ms-4"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="ms-4"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="ms-4"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </footer>
+
+
+    <!-- bootstrap_javascript -->
+    <script src="../boots/bootstrap.min.js"></script>
+    <!-- Javascript -->
+    <script src="../Javascript/js.js"></script>
+</body>
+
+</html>
